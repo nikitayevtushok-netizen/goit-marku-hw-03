@@ -86,8 +86,6 @@ p {
 }
 
 .header-container {
-    padding-top: 24px;
-    padding-bottom: 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -96,7 +94,6 @@ p {
 
 .header-logo {
     margin-right: 76px;
-    padding: 1.5px 0;
 }
 
 .nav {
@@ -142,6 +139,8 @@ address {
 }
 
 .address-link {
+    padding: 24px 0;
+    display: inline-block;
     color: #434455;
     font-weight: 400;
 }
@@ -272,7 +271,6 @@ address {
 .footer-logo {
     display: block;
     margin-bottom: 16px;
-    padding: 1.5px 0;
 }
 
 .footer-text {
